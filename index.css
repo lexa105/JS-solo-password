@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    font-family: 'Karla';
+    background-color: #1F2937;
+    padding: 115px 52px;
+}
+
+h1 {
+    margin-bottom: 0px;
+    color: white;
+    font-weight: 800;
+}
+
+#green-highlight {
+    margin-top: 0px;
+    color: #4adf86;
+}
+
+#description {
+    color: #D5D4D8;
+    font-weight: 400;
+}
+
+/* Button style */
+.button {
+    background-color: #20c997;
+    /* Green background color */
+    color: white;
+    /* White text color */
+    margin-top: 40px;
+    padding: 10px 20px;
+    /* Padding around the text */
+    border: none;
+    /* No border */
+    border-radius: 5px;
+    /* Rounded corners */
+    font-size: 16px;
+    /* Font size */
+    cursor: pointer;
+    /* Pointer cursor on hover */
+    transition: background-color 0.3s ease;
+    /* Smooth transition for background color */
+}
+
+.button:hover {
+    background-color: #17a589;
+    /* Slightly darker green on hover */
+}
+
+.divider {
+    color: grey;
+    height: 1px;
+    width: fit-content;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #2F3E53;
+    /* Color of the divider */
+    margin: 35px 0;
+    /* Space around the divider */
+}
+
+.password-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px; /* Space between the password boxes */
+    /* width: 80%; Adjust the width of the password container */
+
+
+}
+
+.password-box {
+    background-color: #242731;
+    /* Slightly lighter dark color for the boxes */
+    color: #20c997;
+    /* Green text color */
+    padding: 10px 20px;
+    /* Padding inside the boxes */
+    border-radius: 5px;
+    /* Rounded corners */
+    font-size: 16px;
+    /* Font size */
+    text-align: center;
+    /* Center the text */
+    min-width: 150px;
+    /* Minimum width of the boxes */
+}
+
+@media (max-width: 600px) {
+    .password-container {
+        display: flex;
+        flex-direction: column
+    }
+}
